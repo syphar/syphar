@@ -15,7 +15,6 @@ jobs:
           # Your GitHub token
           # The following scopes are required:
           #  - public_access (default scope)
-          #  - public_repo
           # The following additional scopes may be required:
           #  - read:org  (for organization related metrics)
           #  - read:user (for user related data)
@@ -27,10 +26,16 @@ jobs:
           template: classic
           base: header, activity, community, repositories, metadata
           config_timezone: Europe/Berlin
+          plugin_habits: yes
+          plugin_habits_charts_type: classic
+          plugin_habits_days: 14
+          plugin_habits_facts: yes
+          plugin_habits_from: 200
           plugin_languages: yes
           plugin_languages_analysis_timeout: 15
           plugin_languages_categories: markup, programming
           plugin_languages_colors: github
+          plugin_languages_ignored: javascript,css,scss
           plugin_languages_limit: 8
           plugin_languages_recent_categories: markup, programming
           plugin_languages_recent_days: 14
@@ -41,8 +46,6 @@ jobs:
           plugin_notable: yes
           plugin_notable_from: organization
           plugin_notable_types: commit
-          plugin_projects: yes
-          plugin_projects_limit: 4
           # plugin_repositories: 100
           plugin_repositories: yes
           plugin_repositories_affiliations: owner
@@ -52,3 +55,4 @@ jobs:
           plugin_stackoverflow_lines: 4
           plugin_stackoverflow_lines_snippet: 2
           plugin_stackoverflow_sections: answers-top, questions-recent
+          plugin_stackoverflow_user: 1194456
