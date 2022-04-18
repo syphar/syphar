@@ -69,7 +69,7 @@
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
                                 <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
                             </svg>
-                            6349 Commits
+                            6350 Commits
                         </div>
                         <div class="field">
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
@@ -225,14 +225,14 @@
                         <rect x="0" y="0" width="460" height="8" fill="white" rx="5"/>
                     </mask>
                     <rect mask="url(#languages-bar)" x="0" y="0" width="0" height="8" fill="#d1d5da"/>
-                    <rect mask="url(#languages-bar)" x="0" y="0" width="322.31895005524825" height="8" fill="#3572A5"/>
-                    <rect mask="url(#languages-bar)" x="322.31895005524825" y="0" width="57.25074030286687" height="8" fill="#dea584"/>
-                    <rect mask="url(#languages-bar)" x="379.5696903581151" y="0" width="50.01894308700294" height="8" fill="#89e051"/>
-                    <rect mask="url(#languages-bar)" x="429.588633445118" y="0" width="14.873830842624816" height="8" fill="#000080"/>
-                    <rect mask="url(#languages-bar)" x="444.4624642877428" y="0" width="8.161630499131313" height="8" fill="#e34c26"/>
-                    <rect mask="url(#languages-bar)" x="452.62409478687414" y="0" width="3.401218096123138" height="8" fill="#2b7489"/>
-                    <rect mask="url(#languages-bar)" x="456.0253128829973" y="0" width="2.2348860809007425" height="8" fill="#427819"/>
-                    <rect mask="url(#languages-bar)" x="458.260198963898" y="0" width="1.7398010361019518" height="8" fill="#701516"/>
+                    <rect mask="url(#languages-bar)" x="0" y="0" width="322.25748505449025" height="8" fill="#3572A5"/>
+                    <rect mask="url(#languages-bar)" x="322.25748505449025" y="0" width="57.26341523127104" height="8" fill="#dea584"/>
+                    <rect mask="url(#languages-bar)" x="379.5209002857613" y="0" width="50.06100028757697" height="8" fill="#89e051"/>
+                    <rect mask="url(#languages-bar)" x="429.58190057333826" y="0" width="14.877123808620164" height="8" fill="#000080"/>
+                    <rect mask="url(#languages-bar)" x="444.45902438195844" y="0" width="8.163437429167333" height="8" fill="#e34c26"/>
+                    <rect mask="url(#languages-bar)" x="452.6224618111258" y="0" width="3.401971102907456" height="8" fill="#2b7489"/>
+                    <rect mask="url(#languages-bar)" x="456.02443291403324" y="0" width="2.2353808696304083" height="8" fill="#427819"/>
+                    <rect mask="url(#languages-bar)" x="458.2598137836636" y="0" width="1.740186216336363" height="8" fill="#701516"/>
                 </svg>
                 <div class="field center horizontal-wrap fill-width">
                     <div class="field center no-wrap language">
@@ -438,7 +438,7 @@
                         </svg>
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" width="16" height="16" class="gauge">
                             <circle class="gauge-base" r="12.5" cx="15" cy="15"/>
-                            <circle class="gauge-arc" transform="rotate(-90 15 15)" r="12.5" cx="15" cy="15" stroke-dasharray="1.3439542483660132 329"/>
+                            <circle class="gauge-arc" transform="rotate(-90 15 15)" r="12.5" cx="15" cy="15" stroke-dasharray="1.342857142857143 329"/>
                             <text x="15" y="15" dominant-baseline="central">5</text>
                         </svg>
                         <svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
@@ -458,7 +458,7 @@
                         </svg>
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" width="16" height="16" class="gauge">
                             <circle class="gauge-base" r="12.5" cx="15" cy="15"/>
-                            <circle class="gauge-arc" transform="rotate(-90 15 15)" r="12.5" cx="15" cy="15" stroke-dasharray="0.6281686707832305 329"/>
+                            <circle class="gauge-arc" transform="rotate(-90 15 15)" r="12.5" cx="15" cy="15" stroke-dasharray="0.6281176375010156 329"/>
                             <text x="15" y="15" dominant-baseline="central">47</text>
                         </svg>
                         <svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
@@ -490,7 +490,7 @@
                         </svg>
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" width="16" height="16" class="gauge">
                             <circle class="gauge-base" r="12.5" cx="15" cy="15"/>
-                            <circle class="gauge-arc" transform="rotate(-90 15 15)" r="12.5" cx="15" cy="15" stroke-dasharray="0.15341571461879225 329"/>
+                            <circle class="gauge-arc" transform="rotate(-90 15 15)" r="12.5" cx="15" cy="15" stroke-dasharray="0.1533799533799534 329"/>
                             <text x="15" y="15" dominant-baseline="central">2</text>
                         </svg>
                         <svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
@@ -709,7 +709,7 @@ class Employees(models.Model):
             </section>
             <footer>
                 <span>These metrics include private contributions</span>
-                <span>Last updated 18 Apr 2022, 20:03:49 (timezone Europe/Berlin) with lowlighter/metrics@3.22.0</span>
+                <span>Last updated 18 Apr 2022, 21:03:24 (timezone Europe/Berlin) with lowlighter/metrics@3.22.0</span>
             </footer>
         </div>
         <div xmlns="http://www.w3.org/1999/xhtml" id="metrics-end"></div>
