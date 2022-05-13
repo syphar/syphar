@@ -177,7 +177,7 @@
                                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
                                         <path fill-rule="evenodd" d="M2.75 1.5a.25.25 0 00-.25.25v12.5c0 .138.112.25.25.25h10.5a.25.25 0 00.25-.25V4.664a.25.25 0 00-.073-.177l-2.914-2.914a.25.25 0 00-.177-.073H2.75zM1 1.75C1 .784 1.784 0 2.75 0h7.586c.464 0 .909.184 1.237.513l2.914 2.914c.329.328.513.773.513 1.237v9.586A1.75 1.75 0 0113.25 16H2.75A1.75 1.75 0 011 14.25V1.75zm7 1.5a.75.75 0 01.75.75v1.5h1.5a.75.75 0 010 1.5h-1.5v1.5a.75.75 0 01-1.5 0V7h-1.5a.75.75 0 010-1.5h1.5V4A.75.75 0 018 3.25zm-3 8a.75.75 0 01.75-.75h4.5a.75.75 0 010 1.5h-4.5a.75.75 0 01-.75-.75z"/>
                                     </svg>
-                                    689k added, 316k removed
+                                    637k added, 300k removed
                                 </div>
                             </section>
                             <section>
@@ -225,14 +225,14 @@
                         <rect x="0" y="0" width="460" height="8" fill="white" rx="5"/>
                     </mask>
                     <rect mask="url(#languages-bar)" x="0" y="0" width="0" height="8" fill="#d1d5da"/>
-                    <rect mask="url(#languages-bar)" x="0" y="0" width="327.7817268499709" height="8" fill="#3572A5"/>
-                    <rect mask="url(#languages-bar)" x="327.7817268499709" y="0" width="58.24504317303648" height="8" fill="#dea584"/>
-                    <rect mask="url(#languages-bar)" x="386.0267700230074" y="0" width="40.09353065720478" height="8" fill="#89e051"/>
-                    <rect mask="url(#languages-bar)" x="426.12030068021215" y="0" width="17.975031484683015" height="8" fill="#000080"/>
-                    <rect mask="url(#languages-bar)" x="444.0953321648952" y="0" width="8.3033777077721" height="8" fill="#e34c26"/>
-                    <rect mask="url(#languages-bar)" x="452.39870987266727" y="0" width="3.4602887893081946" height="8" fill="#2b7489"/>
-                    <rect mask="url(#languages-bar)" x="455.8589986619755" y="0" width="2.2737004898146904" height="8" fill="#427819"/>
-                    <rect mask="url(#languages-bar)" x="458.1326991517901" y="0" width="1.867300848209871" height="8" fill="#701516"/>
+                    <rect mask="url(#languages-bar)" x="0" y="0" width="329.32783029282496" height="8" fill="#3572A5"/>
+                    <rect mask="url(#languages-bar)" x="329.32783029282496" y="0" width="57.563950767020614" height="8" fill="#dea584"/>
+                    <rect mask="url(#languages-bar)" x="386.8917810598455" y="0" width="39.62469420738259" height="8" fill="#89e051"/>
+                    <rect mask="url(#languages-bar)" x="426.51647526722815" y="0" width="17.7648392215278" height="8" fill="#000080"/>
+                    <rect mask="url(#languages-bar)" x="444.281314488756" y="0" width="8.206281591210836" height="8" fill="#e34c26"/>
+                    <rect mask="url(#languages-bar)" x="452.4875960799668" y="0" width="3.419825665089743" height="8" fill="#2b7489"/>
+                    <rect mask="url(#languages-bar)" x="455.9074217450565" y="0" width="2.2471128172368418" height="8" fill="#427819"/>
+                    <rect mask="url(#languages-bar)" x="458.1545345622934" y="0" width="1.8454654377066217" height="8" fill="#701516"/>
                 </svg>
                 <div class="field center horizontal-wrap fill-width">
                     <div class="field center no-wrap language">
@@ -490,7 +490,7 @@
                         </svg>
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" width="16" height="16" class="gauge">
                             <circle class="gauge-base" r="12.5" cx="15" cy="15"/>
-                            <circle class="gauge-arc" transform="rotate(-90 15 15)" r="12.5" cx="15" cy="15" stroke-dasharray="0.6141801280097532 329"/>
+                            <circle class="gauge-arc" transform="rotate(-90 15 15)" r="12.5" cx="15" cy="15" stroke-dasharray="0.6141333333333333 329"/>
                             <text x="15" y="15" dominant-baseline="central">49</text>
                         </svg>
                         <svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
@@ -534,7 +534,7 @@
                 <div class="row">
                     <ul class="facts">
                         <li>Uses spaces for indentation</li>
-                        <li>Has approximately 39.9 characters per line of code written</li>
+                        <li>Has approximately 40.8 characters per line of code written</li>
                         <li>Mostly pushes code around 06:00</li>
                         <li>Mostly active on Wednesday</li>
                     </ul>
@@ -729,7 +729,7 @@ class Employees(models.Model):
             </section>
             <footer>
                 <span>These metrics include private contributions</span>
-                <span>Last updated 13 May 2022, 08:06:19 (timezone Europe/Berlin) with lowlighter/metrics@3.23.0</span>
+                <span>Last updated 13 May 2022, 09:04:15 (timezone Europe/Berlin) with lowlighter/metrics@3.23.0</span>
             </footer>
         </div>
         <div xmlns="http://www.w3.org/1999/xhtml" id="metrics-end"></div>
