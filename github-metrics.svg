@@ -230,7 +230,7 @@
                     <rect mask="url(#languages-bar)" x="385.43513683968666" y="0" width="41.97010229273588" height="8" fill="#89e051"/>
                     <rect mask="url(#languages-bar)" x="427.4052391324226" y="0" width="16.90780758743415" height="8" fill="#000080"/>
                     <rect mask="url(#languages-bar)" x="444.31304671985674" y="0" width="8.16958602272807" height="8" fill="#e34c26"/>
-                    <rect mask="url(#languages-bar)" x="452.48263274258477" y="0" width="3.404533422738857" height="8" fill="#2b7489"/>
+                    <rect mask="url(#languages-bar)" x="452.48263274258477" y="0" width="3.404533422738857" height="8" fill="#3178c6"/>
                     <rect mask="url(#languages-bar)" x="455.88716616532366" y="0" width="2.237064529061875" height="8" fill="#427819"/>
                     <rect mask="url(#languages-bar)" x="458.1242306943856" y="0" width="1.875769305614495" height="8" fill="#701516"/>
                 </svg>
@@ -267,7 +267,7 @@
                     </div>
                     <div class="field center no-wrap language">
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                            <path fill="#2b7489" fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8z"/>
+                            <path fill="#3178c6" fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8z"/>
                         </svg>
                         TypeScript
                     </div>
@@ -510,7 +510,7 @@
                         </svg>
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" width="16" height="16" class="gauge">
                             <circle class="gauge-base" r="12.5" cx="15" cy="15"/>
-                            <circle class="gauge-arc" transform="rotate(-90 15 15)" r="12.5" cx="15" cy="15" stroke-dasharray="0.6020690170301762 329"/>
+                            <circle class="gauge-arc" transform="rotate(-90 15 15)" r="12.5" cx="15" cy="15" stroke-dasharray="0.6020015683931439 329"/>
                             <text x="15" y="15" dominant-baseline="central">49</text>
                         </svg>
                         <svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
@@ -731,7 +731,7 @@ class Employees(models.Model):
             </section>
             <footer>
                 <span>These metrics include private contributions</span>
-                <span>Last updated 10 Jun 2022, 12:04:25 (timezone Europe/Berlin) with lowlighter/metrics@3.24.0</span>
+                <span>Last updated 10 Jun 2022, 13:03:42 (timezone Europe/Berlin) with lowlighter/metrics@3.24.0</span>
             </footer>
         </div>
         <div xmlns="http://www.w3.org/1999/xhtml" id="metrics-end"></div>
